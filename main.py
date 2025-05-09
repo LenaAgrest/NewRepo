@@ -9,7 +9,7 @@ def read_point(prompt):
             return tuple(map(int, parts))
         except ValueError:
             print("Введите координаты в формате: row col (например, 2 3)")
-
+            #vhgvkhgvkghv
 def main():
     try:
         map_obj = Map("map.txt")
